@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { Routes, Route, Link } from "react-router-dom";
+import About from './pages/About';
 
 function App() {
   return (
@@ -25,15 +26,15 @@ function Home() {
   );
 }
 
-function About() {
-  return (
-    <div className="container">
-        <h2>
-            This is the About page.
-        </h2>
-    </div>
-  );
-}
+// function About() {
+//   return (
+//     <div className="container">
+//         <h2>
+//             This is the About page.
+//         </h2>
+//     </div>
+//   );
+// }
 
 function Projects() {
   return (

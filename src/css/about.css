@@ -1,0 +1,17 @@
+.landing {
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.charLimit {
+    max-width: 65ch;
+}
+
+.fade-in {
+    transition: 5ms;
+    opacity: 80;
+}
+
+p {
+    line-height: 1.8;
+}
