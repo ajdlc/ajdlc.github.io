@@ -9,7 +9,7 @@ function About() {
                     I love to solve complex problems with clean and thorough solutions.
                 </div>
                 <div className="col-12 col-lg-6 align-self-lg-center mb-3">
-                    <h1>Software Developer <i class="fa-solid fa-code"></i></h1>
+                    <h1>Software Developer <i className="fa-solid fa-code"></i></h1>
                 </div>
                 <div className="col-12 col-lg-6">
                     <p>
@@ -22,7 +22,7 @@ function About() {
             </div>
             <div className="row justify-content-around mt-3">
                 <div className="col-12 col-lg-6 align-self-lg-center mb-3">
-                    <h1>System Administrator <i class="fa-solid fa-computer"></i></h1>
+                    <h1>System Administrator <i className="fa-solid fa-computer"></i></h1>
                 </div>
                 <div className="col-12 col-lg-6">
                     <p>
@@ -35,7 +35,7 @@ function About() {
             </div>
             <div className="row justify-content-around mt-3">
                 <div className="col-12 col-lg-6 align-self-lg-center mb-3">
-                    <h1>Husband and Father <i class="fa-solid fa-ring"></i></h1>
+                    <h1>Husband and Father <i className="fa-solid fa-ring"></i></h1>
                 </div>
                 <div className="col-12 col-lg-6">
                     <p>
@@ -48,7 +48,20 @@ function About() {
             </div>
             <div className="row justify-content-around mt-3">
                 <div className="col-12 col-lg-6 align-self-lg-center mb-3">
-                    <h1>Christian <i class="fa-solid fa-cross"></i></h1>
+                    <h1>Christian <i className="fa-solid fa-cross"></i></h1>
+                </div>
+                <div className="col-12 col-lg-6">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci similique totam fugiat. Omnis modi optio placeat aliquid nulla, eum cumque asperiores non veniam, neque recusandae illo similique quia at quas libero velit ab! Ea neque numquam ut ullam, aliquam recusandae rerum eos aliquid possimus corporis deserunt! Quasi laudantium ut quia! Dolores facilis nam, ullam saepe id nobis reprehenderit facere doloribus quos assumenda sit quis distinctio? Voluptatem, rerum. Dolores voluptatum officiis laborum praesentium, accusantium tempore rerum delectus voluptate nam, perferendis magnam nulla commodi earum at quasi eos voluptas enim facilis reiciendis. Molestiae dolorum optio dolore voluptatem tempore ex magnam beatae illo sequi quibusdam voluptatibus unde minus recusandae iusto, at quidem doloremque laboriosam, iste dolores aliquid sunt maxime natus. Expedita, ab sapiente.
+                    </p>
+                </div>
+                <div className="col-12">
+                    <hr />
+                </div>
+            </div>
+            <div className="row justify-content-around mt-3">
+                <div className="col-12 col-lg-6 align-self-lg-center mb-3">
+                    <h1>Proud American <i className="fa-solid fa-flag-usa"></i></h1>
                 </div>
                 <div className="col-12 col-lg-6">
                     <p>
