@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { Routes, Route, Link } from "react-router-dom";
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -15,6 +16,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
