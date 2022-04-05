@@ -1,3 +1,4 @@
+import usaFlag from '../assets/usa_flag.png';
 import '../css/about.css';
 
 
@@ -61,7 +62,8 @@ function About() {
             </div>
             <div className="row justify-content-around mt-3">
                 <div className="col-12 col-lg-6 align-self-lg-center mb-3">
-                    <h1>Proud American <i className="fa-solid fa-flag-usa"></i></h1>
+                    <h1 className='inline'>Proud American</h1>
+                    <img src={usaFlag} alt="US Flag" width={100} height={50} className="ms-3"/>
                 </div>
                 <div className="col-12 col-lg-6">
                     <p>
