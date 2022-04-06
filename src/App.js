@@ -7,11 +7,13 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Applications from './pages/Applications';
 import ContactMe from './components/ContactMe';
+import ScrollBackToTopButton from './components/ScrollBackToTopButton';
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <ScrollBackToTopButton></ScrollBackToTopButton>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
