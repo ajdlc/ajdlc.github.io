@@ -1,0 +1,9 @@
+.max-width-for-text {
+    max-width: 90ch;
+}
+
+.below-landing {
+    margin-top: 8rem;
+    font-size: 1.3rem;
+    line-height: 1.8;
+}

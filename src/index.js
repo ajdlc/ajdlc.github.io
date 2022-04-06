@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById("root");
+container.classList.add("full-height");
 const root = createRoot(container);
 
 root.render(

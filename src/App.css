@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.landing {
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.full-height {
+    height: 100%;
+}
