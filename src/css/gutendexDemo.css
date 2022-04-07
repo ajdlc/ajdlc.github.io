@@ -1,0 +1,11 @@
+.carousel-background-left-color {
+    background: linear-gradient(90deg, #000, transparent);
+}
+
+.carousel-background-right-color {
+    background: linear-gradient(270deg, #000, transparent);
+}
+
+.carousel-control-width {
+    width: 7%;
+}

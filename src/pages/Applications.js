@@ -1,4 +1,4 @@
-
+import GutendexDemo from "../components/applications/GutendexDemo";
 
 function Applications() {
     return (
@@ -9,11 +9,7 @@ function Applications() {
                         Let me demonstrate what I can do.
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-12 h3">
-                        Example Application 1
-                    </div>
-                </div>
+                <GutendexDemo></GutendexDemo>
             </div>
         </section>
     )
