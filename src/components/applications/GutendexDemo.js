@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Book from './app_components/Book';
+import Spinner from './app_components/Spinner';
 import '../../css/gutendexDemo.css';
 
 export class GutendexDemo extends Component {
@@ -41,19 +42,6 @@ export class GutendexDemo extends Component {
             return <Book key={book.id} id={book.id} carouselClasses={"carousel-item"} title={book.title} authors={book.authors} subjects={book.subjects} link={book.formats["text/html"]}></Book>
         }
     })
-
-    function Spinner() {
-        return (
-            <div className="col-12 text-center">
-                <div>
-                    Loading Data
-                </div>
-                <div class="spinner-border" role="status">
-                    <span class="visually-hidden">Loading...</span>
-                </div>
-            </div>
-        )
-    }
 
     return (
         <div className="row">

@@ -1,4 +1,6 @@
 import GutendexDemo from "../components/applications/GutendexDemo";
+import InternetArchiveWaybackMachine from "../components/applications/InternetArchiveWaybackMachine";
+import SunsetSunrise from "../components/applications/SunsetSunrise";
 
 function Applications() {
     return (
@@ -10,6 +12,10 @@ function Applications() {
                     </div>
                 </div>
                 <GutendexDemo></GutendexDemo>
+                <hr />
+                <SunsetSunrise></SunsetSunrise>
+                <hr />
+                <InternetArchiveWaybackMachine></InternetArchiveWaybackMachine>
             </div>
         </section>
     )
