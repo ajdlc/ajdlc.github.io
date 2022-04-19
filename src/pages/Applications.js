@@ -1,6 +1,6 @@
 import GutendexDemo from "../components/applications/GutendexDemo";
-import InternetArchiveWaybackMachine from "../components/applications/InternetArchiveWaybackMachine";
 import SunsetSunrise from "../components/applications/SunsetSunrise";
+import UnitedStatesAwardungAgencySearch from "../components/applications/UnitedStatesAwardungAgencySearch";
 
 function Applications() {
     return (
@@ -15,7 +15,7 @@ function Applications() {
                 <hr />
                 <SunsetSunrise></SunsetSunrise>
                 <hr />
-                <InternetArchiveWaybackMachine></InternetArchiveWaybackMachine>
+                <UnitedStatesAwardungAgencySearch></UnitedStatesAwardungAgencySearch>
             </div>
         </section>
     )

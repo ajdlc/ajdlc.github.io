@@ -8,7 +8,7 @@ export class ProjectsComponent extends Component {
     });
 
     const links = this.props.links.map((link, index) => {
-        return <a key={index} href="#" className="list-group-item list-group-item-action">
+        return <a key={index} href={link.url} target="_blank" rel="noreferrer" className="list-group-item list-group-item-action">
             {link.name} <i className={link.iconClasses}></i></a>
     });
 

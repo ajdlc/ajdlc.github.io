@@ -83,7 +83,7 @@ export class SunsetSunrise extends Component {
       <div className="row">
           <div className="col-12">
               <h2>
-                  Demonstration of the Sunset and Sunrise API
+                  Demonstration of retrieving data from the Sunrise Sunset API
               </h2>
               URL: <a href="https://sunrise-sunset.org/api" className="btn btn-link" target="_blank" rel="noreferrer">https://sunrise-sunset.org/api</a>
           </div>
